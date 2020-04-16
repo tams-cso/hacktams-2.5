@@ -116,12 +116,12 @@ particlesJS.load('particles-js', jsonUri, function(){
 });
 
 
-const main = document.getElementById('main');
-const navbar = document.getElementById('nav');
-
 window.addEventListener('scroll', function(e){
+    const main = document.getElementById('main');
+    const navbar = document.getElementById('nav');
     navbar.classList.remove('hidden');
     if(isScrolledIntoView(main)){
+        console.log('main view');
         this.setTimeout(function(){
             navbar.classList.add('hidden');
         }, 1000 * 3);
