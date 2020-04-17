@@ -493,14 +493,6 @@ body{
     border-radius: 20px;
 }
 
-#ben{
-    transform: rotate(90deg);
-}
-
-#michael{
-    transform: rotate(-90deg);
-}
-
 /* footer */
 #footer{
     margin-top: 60px;
