@@ -285,17 +285,20 @@ body{
 }
 
 #sponsors img {
+    margin-top: 20px;
     width: 300px;
-    -webkit-filter: grayscale(100%);
+    /* -webkit-filter: grayscale(100%);
    -moz-filter: grayscale(100%);
-   filter: grayscale(100%);
-   transition: all 0.5s ease;
+   filter: grayscale(100%);*/
+   transition: all 0.5s ease; 
+   transform: scale(1);
 }
 
 #sponsors img:hover {
-    -webkit-filter: grayscale(0%);
+    /* -webkit-filter: grayscale(0%);
    -moz-filter: grayscale(0%);
-   filter: grayscale(0%);
+   filter: grayscale(0%); */
+   transform: scale(1.05);
 }
 
 /* schedule */
